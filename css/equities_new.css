@@ -193,6 +193,7 @@ a.button_big {
     color: #fff;
     padding: 10px 36px;
     border: 2px solid #343CFF;
+    z-index: 9;
     border-radius: 12px;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
@@ -545,13 +546,29 @@ a.button_big {
         align-items: center;
     }
     .page3{
-        height: fit-content !important;
+        /* height: fit-content !important; */
+        background-image: url('../assets/Page3New.png');
+        /* background-size: 100%; */
+        background-image: cover;
+        background-repeat: no-repeat;
         width: 100vw;
+        height: 100vh !important;
         /* border: 2px solid red; */
         background-color: #F2F2F2;
         color: #fff;
         /* Flexbox properties */
             
+    }
+    .page3 .row{
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        font-family: 'Roca';
+        font-size: 14px;
+        padding-bottom: 4%;
     }
     .page4{
         height: fit-content !important;
